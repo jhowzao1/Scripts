@@ -740,13 +740,13 @@ end
   end
   function SX2()
     gg.setRanges(gg.REGION_CODE_APP | gg.REGION_C_DATA)
-        name('libil2cpp.so')
+        libData('libil2cpp.so')
         krojzanovic = r1
         XA('7F 45 4C 46 01 01 01 00')
         editAll('99 01 A0 E3 1E FF 2F E1')
         gg.clearResults()
         gg.setRanges(gg.REGION_CODE_APP | gg.REGION_C_DATA)
-        name('libil2cpp.so')
+        libData('libil2cpp.so')
         krojzanovic = r2
         XA('7F 45 4C 46 01 01 01 00')
         editAll('99 01 A0 E3 1E FF 2F E1')
